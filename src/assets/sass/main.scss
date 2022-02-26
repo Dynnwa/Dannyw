@@ -178,10 +178,10 @@
 
 	a {
 		@include vendor('transition', ('border-color 0.35s ease-in-out', 'color 0.35s ease-in-out'));
-		color: #35b88f;
-		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		color: #9c9c9c;
+		text-shadow: 0 0 0.5px rgba(98, 98, 98, 0.25);
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
+		border-bottom: dotted 1px rgba(56, 56, 56, 0.5);
 
 		&:hover {
 			border-bottom-color: rgba(53, 184, 143, 0);
@@ -556,7 +556,7 @@
 		position: relative;
 		display: inline-block;
 		border: 0;
-		background: #35b88f;
+		background: #707070;
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		cursor: pointer;
@@ -863,13 +863,13 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url('../images/banner.svg') bottom center no-repeat;
+		background: #6e6e6e url('../images/banner.svg') bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 
 		.button {
-			color: #35b882;
+			color: #6e6e6e;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -926,7 +926,7 @@
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 
 			&:hover {
-				color: #35b88f;
+				color: #6e6e6e;
 				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
 				border-bottom-color: rgba(53, 184, 143, 0.5);
 			}

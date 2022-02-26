@@ -69,29 +69,31 @@ const IndexPage = () => (
         Feel free to tak all the time you would like on my website :)<br/>
       </p>
       <footer>
-        <Scroll type="id" element="first">
-          <a href="#first" className="button style2 scrolly">
+        <Scroll type="id" element="experience">
+          <a href="#experience" className="button style2 scrolly">
             Experience
           </a>
         </Scroll>
       </footer>
     </section>
 
-    <article id="first" className="container box style1 right">
+    <article id="experience"  className="container box style1 right">  
       <a href="/#" className="image fit">
         <img src={pic1} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
-            Lorem ipsum
+            Machine Learning and Data Viz CO-OP
             <br />
-            dolor sit amet
+            Jan 2022 - Present
           </h2>
         </header>
         <p>
-          Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia
-          pellentesque eleifend vitae est elit tristique velit tempus etiam.
+          DESCRIPTION OF WHAT I DID
+        </p>
+        <p>
+          SKILLS
         </p>
       </div>
     </article>
@@ -103,81 +105,25 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>
-            Mollis posuere
+            Math Tutor
             <br />
-            lectus lacus
+            Jan 2017 - Present
           </h2>
         </header>
         <p>
-          Rhoncus mattis egestas sed fusce sodales rutrum et etiam ullamcorper.
-          Etiam egestas scelerisque ac duis magna lorem ipsum dolor.
+          Stuff about tutoring
         </p>
       </div>
     </article>
 
-    <article className="container box style2">
+    <article>
       <header>
-        <h2>Magnis parturient</h2>
-        <p>
-          Justo phasellus et aenean dignissim
-          <br />
-          placerat cubilia purus lectus.
-        </p>
-      </header>
-
-      <div className="inner gallery">
-        <Gallery
-          images={ROW1_IMAGES.map(({ src, thumbnail, caption }) => ({
-            src,
-            thumbnail,
-            caption,
-          }))}
-        />
-        <Gallery
-          images={ROW2_IMAGES.map(({ src, thumbnail, caption }) => ({
-            src,
-            thumbnail,
-            caption,
-          }))}
-        />
-      </div>
-    </article>
-
-    <article className="container box style3">
-      <header>
-        <h2>Nisl sed ultricies</h2>
-        <p>Diam dignissim lectus eu ornare volutpat orci.</p>
-      </header>
-      <form method="post" action="#">
-        <div className="row gtr-50">
-          <div className="col-6 col-12-mobile">
-            <input
-              type="text"
-              className="text"
-              name="name"
-              placeholder="Name"
-            />
-          </div>
-          <div className="col-6 col-12-mobile">
-            <input
-              type="text"
-              className="text"
-              name="email"
-              placeholder="Email"
-            />
-          </div>
-          <div className="col-12">
-            <textarea name="message" placeholder="Message" />
-          </div>
-          <div className="col-12">
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </form>
+        <Scroll type="id" element="experience">
+          <a href="#experience" className="button style2 ">
+            Experience
+          </a>
+        </Scroll>
+        </header>
     </article>
 
     <article className="container box style3">

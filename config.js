@@ -15,17 +15,17 @@ module.exports = {
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/Dynnwa',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'ddaniel.wei@gmail.com',
     },
     {
       icon: 'fa-linkedin',
       name: 'Linked-in',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'https://linkedin.com/in/dlwei',
     },
   ],
 };
