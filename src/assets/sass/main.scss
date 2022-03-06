@@ -106,7 +106,7 @@
 		}
 
 	body, .main-body {
-		background-color: #183026;
+		background-color: #FFFFFF;
 		background-image: url('../images/overlay.png'), url('../images/bg.jpg');
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -870,7 +870,7 @@
 
 		.button {
 			color: #6e6e6e;
-			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
+			text-shadow: 0 0 0.5px rgb(255, 255, 255);
 		}
 
 		header {
@@ -927,8 +927,8 @@
 
 			&:hover {
 				color: #6e6e6e;
-				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
-				border-bottom-color: rgba(53, 184, 143, 0.5);
+				text-shadow: 0 0 0.5px rgb(255, 255, 255);
+				border-bottom-color: rgb(255, 255, 255);
 			}
 		}
 
