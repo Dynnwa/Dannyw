@@ -69,11 +69,11 @@ const IndexPage = () => (
         Feel free to tak all the time you would like on my website :)<br/>
       </p>
       <footer>
-        <Scroll type="id" element="experience">
-          <a href="#experience" className="button style2 scrolly">
-            Experience
+      <Link>
+          <a href="/" className="button style2 scrolly">
+            Home
           </a>
-        </Scroll>
+        </Link>
       </footer>
     </section>
 
