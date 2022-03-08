@@ -33,16 +33,15 @@ const IndexPage = () => (
       </footer>
     </section>
 
-    <article id="experience"  className="container box style1 right">  
+    <article id="experience"  className="container box style3">  
       <a href="/#" className="image fit">
         <img src={pic1} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
-            Machine Learning and Data Viz CO-OP
+            Powerlifting
             <br />
-            Jan 2022 - Present
           </h2>
         </header>
         <p>
@@ -54,14 +53,14 @@ const IndexPage = () => (
       </div>
     </article>
 
-    <article className="container box style1 left">
+    <article className="container box style3">
       <a href="/#" className="image fit">
         <img src={pic2} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
-            Math Tutor
+            Photography
             <br />
             Jan 2017 - Present
           </h2>
@@ -72,26 +71,38 @@ const IndexPage = () => (
       </div>
     </article>
 
-    <article>
-      <header>
-        <p>
-        <Scroll type="id" element="experience">
-          <a href="#experience" className="button style2 ">
-            Experience
-          </a>
-        </Scroll>
-        </p>
+    <article className="container box style3">
+      <a href="/#" className="image fit">
+        <img src={pic2} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            Math
+            <br />
+          </h2>
         </header>
+        <p>
+          Stuff about tutoring
+        </p>
+      </div>
     </article>
 
     <article className="container box style3">
-      <header>
-        <h2>Elements</h2>
-        <p>This starter has other elements.</p>
-        <br />
-        Check it out
-        <Link to="/Element"> here </Link>
-      </header>
+      <a href="/#" className="image fit">
+        <img src={pic2} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            League of legends
+            <br />
+          </h2>
+        </header>
+        <p>
+          Stuff about tutoring
+        </p>
+      </div>
     </article>
 
     <Footer />

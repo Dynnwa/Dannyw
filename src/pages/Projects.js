@@ -33,16 +33,16 @@ const IndexPage = () => (
       </footer>
     </section>
 
-    <article id="experience"  className="container box style1 right">  
+    <article id="experience"  className="container box style3">  
       <a href="/#" className="image fit">
         <img src={pic1} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
-            Machine Learning and Data Viz CO-OP
+            Personal Website
             <br />
-            Jan 2022 - Present
+            React.js Javascript Gatsby
           </h2>
         </header>
         <p>
@@ -54,16 +54,16 @@ const IndexPage = () => (
       </div>
     </article>
 
-    <article className="container box style1 left">
+    <article className="container box style3">
       <a href="/#" className="image fit">
         <img src={pic2} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
-            Math Tutor
+            Translink database model
             <br />
-            Jan 2017 - Present
+            PHP Oacle SQL
           </h2>
         </header>
         <p>
@@ -72,25 +72,48 @@ const IndexPage = () => (
       </div>
     </article>
 
-    <article>
-      <header>
-        <p>
-        <Scroll type="id" element="experience">
-          <a href="#experience" className="button style2 ">
-            Experience
-          </a>
-        </Scroll>
-        </p>
+    <article className="container box style3">
+      <a href="/#" className="image fit">
+        <img src={pic2} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            NBA player Scoring dashboard
+            <br />
+            Tableau MYSQL
+          </h2>
         </header>
+        <p>
+          Stuff about tutoring
+        </p>
+      </div>
+    </article>
+
+    <article className="container box style3">
+      <a href="/#" className="image fit">
+        <img src={pic2} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            Linear Programming Hockey Lineups
+            <br />
+            Linear Programming Python Pulp
+          </h2>
+        </header>
+        <p>
+          Stuff about tutoring
+        </p>
+      </div>
     </article>
 
     <article className="container box style3">
       <header>
-        <h2>Elements</h2>
-        <p>This starter has other elements.</p>
-        <br />
-        Check it out
-        <Link to="/Element"> here </Link>
+        <h2>Check out more of my projects 
+          <Link to="https://github.com/Dynnwa" target="_blank"> here </Link>
+        </h2>
+
       </header>
     </article>
 

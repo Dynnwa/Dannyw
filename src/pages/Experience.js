@@ -31,9 +31,9 @@ const IndexPage = () => (
       </footer>
     </section> 
 
-    <article className="container box style1 right">  
+    <article className="container box style3">  
       <a href="https://www.copperleaf.com/" className="image fit" target="_blank">
-        <img src={pic1} alt="" />
+        <img src={pic1} />
       </a>
       <div className="inner">
         <header>
@@ -52,7 +52,7 @@ const IndexPage = () => (
       </div>
     </article>
 
-    <article className="container box style1 left">
+    <article className="container box style3">
       <a className="image fit">
         <img src={pic2} alt="" />
       </a>

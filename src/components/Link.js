@@ -24,11 +24,6 @@ class Link extends React.Component {
   }
   handleClick(e) {
     e.preventDefault();
-    const { type, element } = this.props;
-    this.jumpTo(element, offset, timeout);
-  }
-  jumpTo(element, offSet = -150, timeout = null) {
-    
   }
   render() {
     return (
