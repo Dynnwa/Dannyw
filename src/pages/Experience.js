@@ -2,12 +2,14 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
+import Nav from '../components/Nav';
 import { Link } from 'gatsby';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 
 const IndexPage = () => (
   <Layout>
+  <Nav />
     <section id="banner">
       <header>
         <h1>Experience</h1>
