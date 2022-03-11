@@ -2,6 +2,52 @@ exports.id = "component---src-pages-activities-js";
 exports.ids = ["component---src-pages-activities-js"];
 exports.modules = {
 
+/***/ "./src/components/Nav.module.css":
+/*!***************************************!*\
+  !*** ./src/components/Nav.module.css ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "closeButton": () => (/* binding */ closeButton),
+/* harmony export */   "logo": () => (/* binding */ logo),
+/* harmony export */   "menuButton": () => (/* binding */ menuButton),
+/* harmony export */   "mobileBrand": () => (/* binding */ mobileBrand),
+/* harmony export */   "navbar": () => (/* binding */ navbar),
+/* harmony export */   "navbarDesktop": () => (/* binding */ navbarDesktop),
+/* harmony export */   "navbarMobile": () => (/* binding */ navbarMobile),
+/* harmony export */   "navbarMobileMenu": () => (/* binding */ navbarMobileMenu)
+/* harmony export */ });
+// Exports
+var logo = "Nav-module--logo--VKG8X";
+var menuButton = "Nav-module--menuButton--HkK+E";
+var closeButton = "Nav-module--closeButton--rjeo1";
+var mobileBrand = "Nav-module--mobileBrand--6pWs1";
+var navbar = "Nav-module--navbar--2IlRv";
+var navbarMobile = "Nav-module--navbarMobile--Id7U-";
+var navbarMobileMenu = "Nav-module--navbarMobileMenu--pKXHS";
+var navbarDesktop = "Nav-module--navbarDesktop--RKj2u";
+
+
+/***/ }),
+
+/***/ "./src/assets/resume.pdf":
+/*!*******************************!*\
+  !*** ./src/assets/resume.pdf ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/resume-b39d6f959a300c579a6882aec551c85a.pdf");
+
+/***/ }),
+
 /***/ "./config.js":
 /*!*******************!*\
   !*** ./config.js ***!
@@ -172,6 +218,120 @@ Layout.propTypes = {
 
 /***/ }),
 
+/***/ "./src/components/Navbar.js":
+/*!**********************************!*\
+  !*** ./src/components/Navbar.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav.module.css */ "./src/components/Nav.module.css");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _assets_resume_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/resume.pdf */ "./src/assets/resume.pdf");
+
+
+
+
+
+const ListLink = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  to: props.to
+}, props.children));
+
+const Links = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ListLink, {
+  to: "/"
+}, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ListLink, {
+  to: "/Experience"
+}, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ListLink, {
+  to: "/Projects"
+}, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ListLink, {
+  to: "/Activites"
+}, "Activities"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  href: _assets_resume_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
+  target: "_blank",
+  rel: "noreferrer"
+}, "Resume")));
+
+function MinimalBar(props) {
+  if (!props.show) {
+    return null;
+  } else {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: props.className
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].mobileBrand
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
+      to: "/"
+    }, "Danny Wei")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].closeButton,
+      onClick: props.onClick
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+      style: {
+        color: props.textColor
+      }
+    }, "Menu")));
+  }
+}
+
+function FullBar(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: [_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbar, _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbarDesktop].join(" ")
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Links, {
+    isFull: true
+  }));
+}
+
+function NavMobileMenu(props) {
+  if (!props.show) {
+    return null;
+  } else {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: props.className
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].closeButton,
+      onClick: props.onClick
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "Close")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Links, {
+      isFull: false
+    }));
+  }
+}
+
+function Navbar(props) {
+  const {
+    0: toggled,
+    1: setToggled
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+
+  function handleMenuClick() {
+    setToggled(true);
+  }
+
+  function handleCloseButtonClick() {
+    setToggled(false);
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(FullBar, {
+    className: [_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbar, _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbarDesktop, props.className].join(" ")
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(MinimalBar, {
+    className: [_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbar, _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbarMobile, props.className].join(" "),
+    show: !toggled,
+    onClick: handleMenuClick
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(NavMobileMenu, {
+    className: [_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbarMobileMenu, props.className].join(" "),
+    show: toggled,
+    onClick: handleCloseButtonClick
+  }));
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Navbar, null, props.children));
+
+/***/ }),
+
 /***/ "./src/components/Scroll.js":
 /*!**********************************!*\
   !*** ./src/components/Scroll.js ***!
@@ -293,10 +453,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./src/components/Layout.js");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/components/Footer.js");
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _assets_images_pic01_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/images/pic01.jpg */ "./src/assets/images/pic01.jpg");
-/* harmony import */ var _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/images/pic02.jpg */ "./src/assets/images/pic02.jpg");
-/* harmony import */ var _components_Scroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Scroll */ "./src/components/Scroll.js");
+/* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Navbar */ "./src/components/Navbar.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _assets_images_pic01_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/images/pic01.jpg */ "./src/assets/images/pic01.jpg");
+/* harmony import */ var _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/images/pic02.jpg */ "./src/assets/images/pic02.jpg");
+/* harmony import */ var _components_Scroll__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Scroll */ "./src/components/Scroll.js");
 
 
 
@@ -305,15 +466,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+
+const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Navbar__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
   id: "banner"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Activities")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__.Link, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Activities")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "/Experience",
   className: "button style2 scrolly"
-}, "Experiences")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__.Link, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+}, "Experiences")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "/Projects",
   className: "button style2 scrolly"
-}, "Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__.Link, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+}, "Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "/",
   className: "button style2 scrolly"
 }, "Home")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
@@ -323,41 +485,41 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   href: "/#",
   className: "image fit"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_pic01_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+  src: _assets_images_pic01_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "inner"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Powerlifting", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "DESCRIPTION OF WHAT I DID"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "SKILLS"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Powerlifting")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I started working out september 2019 and ever since then ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "its become a a huge passion of mine. A day without working ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "out is really a day wasted at this point! Currently I'm preparing ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "for my first competition, hoping to set a provincial bench press ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "record in the years to come!"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
   className: "container box style3"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "/#",
   className: "image fit"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "inner"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Photography", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Jan 2017 - Present")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Stuff about tutoring"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Photography")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Photography was something that I used to be very into in Highschool ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "but it got away from me as school started to pick up. Recently I've ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "gotten back into the hobby and I'm having a blast taking pictures ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "of my friends and editing my photos ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
   className: "container box style3"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "/#",
   className: "image fit"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "inner"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Math", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Stuff about tutoring"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Math")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Hard to really meet someone that genuinly enjoys math and the process ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "of not understanding the concepts. I've always been very mathematically ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "inclined, entering math competitions in highschool. After entering upper year ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "and taking more interesting classes, my passion has only grown larger ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
   className: "container box style3"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "/#",
   className: "image fit"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "inner"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "League of legends", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Stuff about tutoring"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "League of legends")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm sure you expected to see some sort of game here and you're suspicion  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "is correct! I play league all the time and sometimes I can get pretty into it. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "It's always been a great way for me to spend time with my friends and just have a good time ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 

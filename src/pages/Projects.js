@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
-import Nav from '../components/Nav';
+import Navbar from '../components/Navbar';
 import { Link } from 'gatsby';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
@@ -10,7 +10,7 @@ import Scroll from '../components/Scroll';
 
 const IndexPage = () => (
   <Layout>
-  <Nav />
+
 
     <section id="banner">
       <header>

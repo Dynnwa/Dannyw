@@ -2,14 +2,14 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
-import Nav from '../components/Nav';
+import Navbar from '../components/Navbar';
 import { Link } from 'gatsby';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 
 const IndexPage = () => (
   <Layout>
-  <Nav />
+
     <section id="banner">
       <header>
         <h1>Experience</h1>
@@ -66,8 +66,15 @@ const IndexPage = () => (
             Jan 2017 - Present
           </h2>
         </header>
-        <p>
-          Stuff about tutoring
+        <p> 
+          In grade 11 I was hesitant to take on a role with someone elses learing at stake
+          but soon after taking on my first student I fell in love with tutoring. Knowing
+          that I'm able to directly impact a students confidence in themselves to learn has been
+          the most impactful thing with this job.
+        </p>
+        <p> 
+          Since the first student I have since tutored more than 15 students helping them
+          increase their test grades by 8%. 
         </p>
       </div>
     </article>

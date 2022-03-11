@@ -2,15 +2,19 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import Footer from '../components/Footer';
-import Nav from '../components/Nav';
+import Navbar from '../components/Navbar';
 import { Link } from 'gatsby';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
+import power from '../assets/images/BB.png';
+import cam from '../assets/images/cam.png';
+import math from '../assets/images/math.png';
+import lol from '../assets/images/League.png';
 import Scroll from '../components/Scroll';
 
 const IndexPage = () => (
   <Layout>
-  <Nav />
+
 
     <section id="banner">
       <header>
@@ -37,72 +41,76 @@ const IndexPage = () => (
 
     <article id="experience"  className="container box style3">  
       <a href="/#" className="image fit">
-        <img src={pic1} alt="" />
+        <img src={power} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
             Powerlifting
-            <br />
           </h2>
         </header>
         <p>
-          DESCRIPTION OF WHAT I DID
-        </p>
-        <p>
-          SKILLS
+          I started working out september 2019 and ever since then
+          its become a a huge passion of mine. A day without working
+          out is really a day wasted at this point! Currently I'm preparing
+          for my first competition, hoping to set a provincial bench press
+          record in the years to come!
         </p>
       </div>
     </article>
 
     <article className="container box style3">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={cam} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
             Photography
-            <br />
-            Jan 2017 - Present
           </h2>
         </header>
         <p>
-          Stuff about tutoring
+          Photography was something that I used to be very into in Highschool
+          but it got away from me as school started to pick up. Recently I've
+          gotten back into the hobby and I'm having a blast taking pictures
+          of my friends and editing my photos <br/>
         </p>
       </div>
     </article>
 
     <article className="container box style3">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={math} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
             Math
-            <br />
           </h2>
         </header>
         <p>
-          Stuff about tutoring
+          Hard to really meet someone that genuinly enjoys math and the process
+          of not understanding the concepts. I've always been very mathematically
+          inclined, entering math competitions in highschool. After entering upper year
+          and taking more interesting classes, my passion has only grown larger
         </p>
       </div>
     </article>
 
     <article className="container box style3">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={lol} alt="" />
       </a>
       <div className="inner">
         <header>
           <h2>
             League of legends
-            <br />
           </h2>
         </header>
         <p>
-          Stuff about tutoring
+          I'm sure you expected to see some sort of game here and you're suspicion
+          is correct! I play league all the time and sometimes I can get pretty into it.
+          It's always been a great way for me to spend time with my friends and just have a good time
         </p>
       </div>
     </article>
