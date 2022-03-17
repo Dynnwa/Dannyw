@@ -42,16 +42,15 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>
-            Personal Website
+          <Link to="https://github.com/Dynnwa/Website" target="_blank"> Personal Website </Link>
             <br />
             React.js Javascript Gatsby
           </h2>
         </header>
         <p>
-          DESCRIPTION OF WHAT I DID
-        </p>
-        <p>
-          SKILLS
+          This was my first taste of react, what better way to introduce myself than to make a personal website!
+          Everything you see was created in react (with the help of gatsby ofc). Feel free to click around, many of the additional
+          features like the navbar and text boxes were additions I decided to add.
         </p>
       </div>
     </article>
@@ -63,13 +62,14 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>
-            Translink database model
+          <Link to="https://github.com/Dynnwa/PHP-Oracle_Translink_Model" target="_blank"> Translink database model </Link>
             <br />
             PHP Oacle SQL
           </h2>
         </header>
         <p>
-          Stuff about tutoring
+          With the help of two other students, we created a PHP backend that would talk to an Oracle RDMS storing inforamtion about various transit entities
+          such as skytrains, stops, stations, buses etc. We created the DDL and HTML frontend to display our project. 
         </p>
       </div>
     </article>
@@ -81,13 +81,15 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>
-            NBA player Scoring dashboard
+           <Link to="https://github.com/Dynnwa/NBA-PlayerStats" target="_blank"> NBA player Scoring dashboard </Link>
             <br />
             Tableau MYSQL
           </h2>
         </header>
         <p>
-          Stuff about tutoring
+          This was self directed introduction to SQL. At the time I was curious to do something that would combine my
+          intere in NBA and my curiousity to learn SQL. I decided to create a dashboard that would allow me to see 
+          which players scored the most of each type of shot, aswell as top scoring teams.
         </p>
       </div>
     </article>
@@ -99,13 +101,16 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>
-            Linear Programming Hockey Lineups
+          <Link to="https://github.com/Dynnwa/Canucks_2011_finals" target="_blank"> Linear Programming Hockey Lineups </Link>
             <br />
             Linear Programming Python Pulp
           </h2>
         </header>
         <p>
-          Stuff about tutoring
+          This was an optional project for my linear programming class
+          I decided to do a mini case study on the 2011 Stanley cup finals
+          to calculate what the optimal amount of playing time each player
+          should have played based on regular season stats.
         </p>
       </div>
     </article>

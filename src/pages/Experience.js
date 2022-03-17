@@ -40,16 +40,20 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>
-            Machine Learning and Data Viz CO-OP
+            Data Analytics CO-OP
             <br/>
             Jan 2022 - Present
           </h2>
         </header>
         <p>
-          DESCRIPTION OF WHAT I DID
+          - Developed a set a Scenario Comparison dashboards to be productized to clients
         </p>
         <p>
-          SKILLS
+          SKILLS <br/>
+          - Power BI <br/>
+          - C# <br/>
+          - Python (Scikit Learn, Numpy, Pandas) <br/>
+          - AWS
         </p>
       </div>
     </article>
@@ -74,7 +78,7 @@ const IndexPage = () => (
         </p>
         <p> 
           Since the first student I have since tutored more than 15 students helping them
-          increase their test grades by 8%. 
+          increase their test grades by atleast a letter grade.
         </p>
       </div>
     </article>
