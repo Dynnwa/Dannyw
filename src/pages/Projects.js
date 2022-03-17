@@ -4,8 +4,10 @@ import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import { Link } from 'gatsby';
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import c from '../assets/images/Canucks.png';
+import n from '../assets/images/NBA.png';
+import t from '../assets/images/Tranlink.png';
+import w from '../assets/images/site.png';
 import Scroll from '../components/Scroll';
 
 const IndexPage = () => (
@@ -37,7 +39,7 @@ const IndexPage = () => (
 
     <article id="experience"  className="container box style3">  
       <a href="/#" className="image fit">
-        <img src={pic1} alt="" />
+        <img src={w} alt="" />
       </a>
       <div className="inner">
         <header>
@@ -57,7 +59,7 @@ const IndexPage = () => (
 
     <article className="container box style3">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={t} alt="" />
       </a>
       <div className="inner">
         <header>
@@ -76,7 +78,7 @@ const IndexPage = () => (
 
     <article className="container box style3">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={n} alt="" />
       </a>
       <div className="inner">
         <header>
@@ -96,7 +98,7 @@ const IndexPage = () => (
 
     <article className="container box style3">
       <a href="/#" className="image fit">
-        <img src={pic2} alt="" />
+        <img src={c} alt="" />
       </a>
       <div className="inner">
         <header>

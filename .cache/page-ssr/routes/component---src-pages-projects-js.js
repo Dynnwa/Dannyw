@@ -455,9 +455,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Footer */ "./src/components/Footer.js");
 /* harmony import */ var _components_Navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Navbar */ "./src/components/Navbar.js");
 /* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _assets_images_pic01_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/images/pic01.jpg */ "./src/assets/images/pic01.jpg");
-/* harmony import */ var _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/images/pic02.jpg */ "./src/assets/images/pic02.jpg");
-/* harmony import */ var _components_Scroll__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Scroll */ "./src/components/Scroll.js");
+/* harmony import */ var _assets_images_Canucks_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/images/Canucks.png */ "./src/assets/images/Canucks.png");
+/* harmony import */ var _assets_images_NBA_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/images/NBA.png */ "./src/assets/images/NBA.png");
+/* harmony import */ var _assets_images_Tranlink_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/images/Tranlink.png */ "./src/assets/images/Tranlink.png");
+/* harmony import */ var _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/images/pic02.jpg */ "./src/assets/images/pic02.jpg");
+/* harmony import */ var _components_Scroll__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Scroll */ "./src/components/Scroll.js");
+
+
 
 
 
@@ -485,41 +489,53 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   href: "/#",
   className: "image fit"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_pic01_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_8__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "inner"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Personal Website", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "React.js Javascript Gatsby")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "DESCRIPTION OF WHAT I DID"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "SKILLS"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+  to: "https://github.com/Dynnwa/Website",
+  target: "_blank"
+}, " Personal Website "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "React.js Javascript Gatsby")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "This was my first taste of react, what better way to introduce myself than to make a personal website! Everything you see was created in react (with the help of gatsby ofc). Feel free to click around, many of the additional features like the navbar and text boxes were additions I decided to add."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
   className: "container box style3"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "/#",
   className: "image fit"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+  src: _assets_images_Tranlink_png__WEBPACK_IMPORTED_MODULE_7__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "inner"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Translink database model", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "PHP Oacle SQL")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Stuff about tutoring"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+  to: "https://github.com/Dynnwa/PHP-Oracle_Translink_Model",
+  target: "_blank"
+}, " Translink database model "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "PHP Oacle SQL")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "With the help of two other students, we created a PHP backend that would talk to an Oracle RDMS storing inforamtion about various transit entities such as skytrains, stops, stations, buses etc. We created the DDL and HTML frontend to display our project."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
   className: "container box style3"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "/#",
   className: "image fit"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+  src: _assets_images_NBA_png__WEBPACK_IMPORTED_MODULE_6__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "inner"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "NBA player Scoring dashboard", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Tableau MYSQL")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Stuff about tutoring"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+  to: "https://github.com/Dynnwa/NBA-PlayerStats",
+  target: "_blank"
+}, " NBA player Scoring dashboard "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Tableau MYSQL")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "This was self directed introduction to SQL. At the time I was curious to do something that would combine my intere in NBA and my curiousity to learn SQL. I decided to create a dashboard that would allow me to see which players scored the most of each type of shot, aswell as top scoring teams."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
   className: "container box style3"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "/#",
   className: "image fit"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-  src: _assets_images_pic02_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+  src: _assets_images_Canucks_png__WEBPACK_IMPORTED_MODULE_5__["default"],
   alt: ""
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
   className: "inner"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Linear Programming Hockey Lineups", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Linear Programming Python Pulp")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Stuff about tutoring"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
+  to: "https://github.com/Dynnwa/Canucks_2011_finals",
+  target: "_blank"
+}, " Linear Programming Hockey Lineups "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Linear Programming Python Pulp")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "This was an optional project for my linear programming class I decided to do a mini case study on the 2011 Stanley cup finals to calculate what the optimal amount of playing time each player should have played based on regular season stats."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
   className: "container box style3"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Check out more of my projects", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
   to: "https://github.com/Dynnwa",
@@ -980,10 +996,10 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
 
 /***/ }),
 
-/***/ "./src/assets/images/pic01.jpg":
-/*!*************************************!*\
-  !*** ./src/assets/images/pic01.jpg ***!
-  \*************************************/
+/***/ "./src/assets/images/Canucks.png":
+/*!***************************************!*\
+  !*** ./src/assets/images/Canucks.png ***!
+  \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -991,7 +1007,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/pic01-d9c9f6463e6571136540bb51d44ffe48.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/Canucks-b15914f2365ce9084862407e29e9f600.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/NBA.png":
+/*!***********************************!*\
+  !*** ./src/assets/images/NBA.png ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/NBA-2af815cb08c77f3515ed1c97e7d7239a.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/Tranlink.png":
+/*!****************************************!*\
+  !*** ./src/assets/images/Tranlink.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/Tranlink-0d1b1e7406968ca6854d81d95d415ae0.png");
 
 /***/ }),
 
