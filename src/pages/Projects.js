@@ -17,7 +17,7 @@ const IndexPage = () => (
 
     <section id="banner">
       <header>
-        <h1>Highlighted Projects</h1>
+        <h2>Highlighted Projects</h2>
       </header>
     </section>
 

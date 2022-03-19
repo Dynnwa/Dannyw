@@ -13,7 +13,7 @@ const IndexPage = () => (
 
     <section id="banner">
       <header>
-        <h1>Experience</h1>
+        <h2>Experience</h2>
       </header>
     </section> 
 
