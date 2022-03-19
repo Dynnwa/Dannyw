@@ -2,6 +2,21 @@ exports.id = "component---src-pages-activities-js";
 exports.ids = ["component---src-pages-activities-js"];
 exports.modules = {
 
+/***/ "./src/components/resume.pdf":
+/*!***********************************!*\
+  !*** ./src/components/resume.pdf ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/resume-b39d6f959a300c579a6882aec551c85a.pdf");
+
+/***/ }),
+
 /***/ "./config.js":
 /*!*******************!*\
   !*** ./config.js ***!
@@ -189,6 +204,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/sass/main.scss */ "./src/assets/sass/main.scss");
 /* harmony import */ var _assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_assets_sass_main_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _resume_pdf__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./resume.pdf */ "./src/components/resume.pdf");
+
 
 
 
@@ -204,7 +221,9 @@ function Navbar() {
   }, "Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "/Activities"
   }, "Activities")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "/Activities"
+    href: _resume_pdf__WEBPACK_IMPORTED_MODULE_2__["default"],
+    target: "_blank",
+    rel: "noreferrer"
   }, "Resume"))))));
 }
 
