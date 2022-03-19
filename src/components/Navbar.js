@@ -9,10 +9,10 @@ function Navbar() {
       <header>
           <nav>
               <ul class="nav__links"> <br/>
-                  <li><a href="/#">Home</a></li>
-                  <li><a href="/Experience">Experience</a></li>
-                  <li><a href="/Projects">Projects</a></li>
-                  <li><a href="/Activities">Activities</a></li>
+                  <li><a href="/Dynnwa">Home</a></li>
+                  <li><a href="/Dynnwa/Experience">Experience</a></li>
+                  <li><a href="/Dynnwa/Projects">Projects</a></li>
+                  <li><a href="/Dynnwa/Activities">Activities</a></li>
                   <li><a href={resume} target="_blank" rel="noreferrer">Resume</a></li>
               </ul>
           </nav>
