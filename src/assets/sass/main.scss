@@ -25,6 +25,37 @@
 // Reset.
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 
+/* Navbar */
+
+
+.nav__links a{
+	font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+	
+    text-decoration: none;
+  }
+  
+  .nav__links {
+	align-items: center;
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links li {
+	  align-items: center;
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #868686;
+  }
+
+  
 	html, body, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	pre, a, abbr, acronym, address, big, cite,
@@ -42,6 +73,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		align-items: center;
 	}
 
 	article, aside, details, figcaption, figure,
@@ -1136,7 +1168,7 @@
 				}
 			}
 
-		/* Box */
+		≈
 			.box {
 				position: relative;
 
@@ -1193,6 +1225,8 @@
 					display: none;
 				}
 			}
+
+		
 
 	}
 

@@ -12,29 +12,13 @@ import Scroll from '../components/Scroll';
 
 const IndexPage = () => (
   <Layout>
+  <Navbar/>
 
 
     <section id="banner">
       <header>
         <h1>Highlighted Projects</h1>
       </header>
-      <footer>
-      <Link>
-          <a href="/Experience" className="button style2 scrolly">
-            Experiences
-          </a>
-        </Link>
-        <Link>
-          <a href="/" className="button style2 scrolly">
-            Home
-          </a>
-        </Link>
-        <Link>
-          <a href="/Activities" className="button style2 scrolly">
-            Activities
-          </a>
-        </Link>
-      </footer>
     </section>
 
     <article id="experience"  className="container box style3">  

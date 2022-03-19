@@ -10,34 +10,38 @@ import power from '../assets/images/BB.png';
 import cam from '../assets/images/cam.png';
 import math from '../assets/images/math.png';
 import lol from '../assets/images/League.png';
+import sus from '../assets/images/SUS.png';
 import Scroll from '../components/Scroll';
 
 const IndexPage = () => (
   <Layout>
+  <Navbar/>
 
 
     <section id="banner">
       <header>
         <h1>Activities</h1>
       </header>
-      <footer>
-      <Link>
-          <a href="/Experience" className="button style2 scrolly">
-            Experiences
-          </a>
-        </Link>
-        <Link>
-          <a href="/Projects" className="button style2 scrolly">
-            Projects
-          </a>
-        </Link>
-        <Link>
-          <a href="/" className="button style2 scrolly">
-            Home
-          </a>
-        </Link>
-      </footer>
     </section>
+
+    <article id="experience"  className="container box style3">  
+      <a href="/#" className="image fit">
+        <img src={sus} alt="" />
+      </a>
+      <div className="inner">
+        <header>
+          <h2>
+            Science Undergraduate Society
+          </h2>
+        </header>
+        <p>
+          I have a long history of working in mentorship related roles. All thruoughout highschool I was heavily involved in
+          cadets and tutoring. I thought it would only be natural for me to continue to the mentorship initiative.
+          Being apart of the mentorship program has opened up many doors and allowed to me to meet some amazing people in the 
+          process.
+        </p>
+      </div>
+    </article>
 
     <article id="experience"  className="container box style3">  
       <a href="/#" className="image fit">

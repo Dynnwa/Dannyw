@@ -9,28 +9,12 @@ import pic2 from '../assets/images/pic02.jpg';
 
 const IndexPage = () => (
   <Layout>
+  <Navbar/>
 
     <section id="banner">
       <header>
         <h1>Experience</h1>
       </header>
-      <footer>
-      <Link>
-          <a href="/" className="button style2 scrolly">
-            Home
-          </a>
-        </Link>
-        <Link>
-          <a href="/Projects" className="button style2 scrolly">
-            Projects
-          </a>
-        </Link>
-        <Link>
-          <a href="/Activities" className="button style2 scrolly">
-            Activities
-          </a>
-        </Link>
-      </footer>
     </section> 
 
     <article className="container box style3">  

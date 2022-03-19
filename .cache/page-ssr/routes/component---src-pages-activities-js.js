@@ -2,52 +2,6 @@ exports.id = "component---src-pages-activities-js";
 exports.ids = ["component---src-pages-activities-js"];
 exports.modules = {
 
-/***/ "./src/components/Nav.module.css":
-/*!***************************************!*\
-  !*** ./src/components/Nav.module.css ***!
-  \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "closeButton": () => (/* binding */ closeButton),
-/* harmony export */   "logo": () => (/* binding */ logo),
-/* harmony export */   "menuButton": () => (/* binding */ menuButton),
-/* harmony export */   "mobileBrand": () => (/* binding */ mobileBrand),
-/* harmony export */   "navbar": () => (/* binding */ navbar),
-/* harmony export */   "navbarDesktop": () => (/* binding */ navbarDesktop),
-/* harmony export */   "navbarMobile": () => (/* binding */ navbarMobile),
-/* harmony export */   "navbarMobileMenu": () => (/* binding */ navbarMobileMenu)
-/* harmony export */ });
-// Exports
-var logo = "Nav-module--logo--VKG8X";
-var menuButton = "Nav-module--menuButton--HkK+E";
-var closeButton = "Nav-module--closeButton--rjeo1";
-var mobileBrand = "Nav-module--mobileBrand--6pWs1";
-var navbar = "Nav-module--navbar--2IlRv";
-var navbarMobile = "Nav-module--navbarMobile--Id7U-";
-var navbarMobileMenu = "Nav-module--navbarMobileMenu--pKXHS";
-var navbarDesktop = "Nav-module--navbarDesktop--RKj2u";
-
-
-/***/ }),
-
-/***/ "./src/assets/resume.pdf":
-/*!*******************************!*\
-  !*** ./src/assets/resume.pdf ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/resume-b39d6f959a300c579a6882aec551c85a.pdf");
-
-/***/ }),
-
 /***/ "./config.js":
 /*!*******************!*\
   !*** ./config.js ***!
@@ -226,109 +180,25 @@ Layout.propTypes = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav.module.css */ "./src/components/Nav.module.css");
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _assets_resume_pdf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/resume.pdf */ "./src/assets/resume.pdf");
 
+ //import {FaBars, FaTimes} from "react-icons/fa";
 
-
-
-
-const ListLink = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
-  to: props.to
-}, props.children));
-
-const Links = props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ListLink, {
-  to: "/"
-}, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ListLink, {
-  to: "/Experience"
-}, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ListLink, {
-  to: "/Projects"
-}, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ListLink, {
-  to: "/Activites"
-}, "Activities"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: _assets_resume_pdf__WEBPACK_IMPORTED_MODULE_3__["default"],
-  target: "_blank",
-  rel: "noreferrer"
-}, "Resume")));
-
-function MinimalBar(props) {
-  if (!props.show) {
-    return null;
-  } else {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: props.className
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].mobileBrand
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
-      to: "/"
-    }, "Danny Wei")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].closeButton,
-      onClick: props.onClick
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-      style: {
-        color: props.textColor
-      }
-    }, "Menu")));
-  }
+function Navbar() {
+  const navRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)();
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/index"
+  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/Experience"
+  }, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/Projects"
+  }, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/Activities"
+  }, "Activities"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "/Activities"
+  }, "Resume")));
 }
-
-function FullBar(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: [_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbar, _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbarDesktop].join(" ")
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Links, {
-    isFull: true
-  }));
-}
-
-function NavMobileMenu(props) {
-  if (!props.show) {
-    return null;
-  } else {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      className: props.className
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-      className: _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].closeButton,
-      onClick: props.onClick
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "Close")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Links, {
-      isFull: false
-    }));
-  }
-}
-
-function Navbar(props) {
-  const {
-    0: toggled,
-    1: setToggled
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
-
-  function handleMenuClick() {
-    setToggled(true);
-  }
-
-  function handleCloseButtonClick() {
-    setToggled(false);
-  }
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(FullBar, {
-    className: [_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbar, _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbarDesktop, props.className].join(" ")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(MinimalBar, {
-    className: [_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbar, _Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbarMobile, props.className].join(" "),
-    show: !toggled,
-    onClick: handleMenuClick
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(NavMobileMenu, {
-    className: [_Nav_module_css__WEBPACK_IMPORTED_MODULE_1__["default"].navbarMobileMenu, props.className].join(" "),
-    show: toggled,
-    onClick: handleCloseButtonClick
-  }));
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (props => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Navbar, null, props.children));
 
 /***/ }),
 
@@ -461,7 +331,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_cam_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/images/cam.png */ "./src/assets/images/cam.png");
 /* harmony import */ var _assets_images_math_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/images/math.png */ "./src/assets/images/math.png");
 /* harmony import */ var _assets_images_League_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/images/League.png */ "./src/assets/images/League.png");
-/* harmony import */ var _components_Scroll__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Scroll */ "./src/components/Scroll.js");
+/* harmony import */ var _assets_images_SUS_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/images/SUS.png */ "./src/assets/images/SUS.png");
+/* harmony import */ var _components_Scroll__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/Scroll */ "./src/components/Scroll.js");
+
 
 
 
@@ -487,6 +359,17 @@ const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default(
   href: "/",
   className: "button style2 scrolly"
 }, "Home")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
+  id: "experience",
+  className: "container box style3"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  href: "/#",
+  className: "image fit"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  src: _assets_images_SUS_png__WEBPACK_IMPORTED_MODULE_11__["default"],
+  alt: ""
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  className: "inner"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Science Undergraduate Society")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I have a long history of working in mentorship related roles. All thruoughout highschool I was heavily involved in cadets and tutoring. I thought it would only be natural for me to continue to the mentorship initiative. Being apart of the mentorship program has opened up many doors and allowed to me to meet some amazing people in the process."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
   id: "experience",
   className: "container box style3"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
@@ -1010,6 +893,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/League-e7494289ee7ae6975e0eb8445503416a.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/SUS.png":
+/*!***********************************!*\
+  !*** ./src/assets/images/SUS.png ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/SUS-6e5e03f223b54f1e7ed9bdba938460a8.png");
 
 /***/ }),
 
