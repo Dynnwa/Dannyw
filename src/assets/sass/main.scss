@@ -27,12 +27,15 @@
 
 /* Navbar */
 
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
 
 .nav__links a{
 	font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
     color: #edf0f1;
-	
     text-decoration: none;
   }
   
@@ -819,7 +822,7 @@
 
 			h1 {
 				font-weight: 600;
-				font-size: 2em;
+				font-size: 3em;
 				letter-spacing: 10px;
 			}
 
@@ -1389,7 +1392,7 @@
 					padding-right: 2em;
 
 					h1 {
-						font-size: 1.75em;
+						font-size: 5em;
 						letter-spacing: 6px;
 					}
 				}

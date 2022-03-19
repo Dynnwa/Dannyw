@@ -1,5 +1,7 @@
 import React from 'react';
 import '../assets/sass/main.scss';
+//import { Document } from 'react-pdf'; 
+import resume from './resume.pdf';
 
 function Navbar() {
 
@@ -12,7 +14,7 @@ function Navbar() {
                     <li><a href="/Experience">Experience</a></li>
                     <li><a href="/Projects">Projects</a></li>
                     <li><a href="/Activities">Activities</a></li>
-                    <li><a href="/Activities">Resume</a></li>
+                    <li><a href={resume} target="_blank" rel="noreferrer">Resume</a></li>
                 </ul>
             </nav>
         </header>
