@@ -1,54 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1800px" height="900px" viewBox="0 0 1800 900" zoomAndPan="disable">
-
-    <style type="text/css"><![CDATA[
-		line
-		{
-			stroke: rgba(255,255,255,0.125);
-			stroke-width: 0.85px;
-		}
-		
-		polygon
-		{
-			fill: rgba(255,255,255,0.075);
-		}
-    ]]></style>
-    
-	<!-- Middle line -->
-		<line x1="900" y1="0" x2="900" y2="900" />
-
-	<!-- Lines -->
-		<line x1="0" y1="0" x2="900" y2="900" />
-		<line x1="100" y1="0" x2="900" y2="800" />
-		<line x1="200" y1="0" x2="900" y2="700" />
-		<line x1="300" y1="0" x2="900" y2="600" />
-		<line x1="400" y1="0" x2="900" y2="500" />
-		<line x1="300" y1="900" x2="600" y2="600" />
-		<line x1="400" y1="900" x2="700" y2="600" />
-		<line x1="500" y1="900" x2="800" y2="600" />
-		<line x1="600" y1="900" x2="900" y2="600" />
-		<line x1="700" y1="900" x2="900" y2="700" />
-		<line x1="800" y1="900" x2="900" y2="800" />
-
-		<line x1="1800" y1="0" x2="900" y2="900" />
-		<line x1="1700" y1="0" x2="900" y2="800" />
-		<line x1="1600" y1="0" x2="900" y2="700" />
-		<line x1="1500" y1="0" x2="900" y2="600" />
-		<line x1="1400" y1="0" x2="900" y2="500" />
-		<line x1="1500" y1="900" x2="1200" y2="600" />
-		<line x1="1400" y1="900" x2="1100" y2="600" />
-		<line x1="1300" y1="900" x2="1000" y2="600" />
-		<line x1="1200" y1="900" x2="900" y2="600" />
-		<line x1="1100" y1="900" x2="900" y2="700" />
-		<line x1="1000" y1="900" x2="900" y2="800" />
-
-	<!-- Fills -->
-		<polygon points="300,900 600,600 650,650 700,600 750,650 800,600 850,650 900,600 900,900 900,600 950,650 1000,600 1050,650 1100,600 1150,650 1200,600 1500,900" />
-		<polygon points="350,950 650,650 700,700 750,650 800,700 850,650 900,700 900,900 900,700 950,650 1000,700 1050,650 1100,700 1150,650 1450,950" />
-		
-		<polygon points="400,1000 700,700 750,750 800,700 850,750 900,700 900,900 900,700 950,750 1000,700 1050,750 1100,700 1300,900" />
-		
-		<polygon points="450,1050 750,750 800,800 850,750 900,800 900,900 900,800 950,750 1000,800 1050,750 1350,1050" />
-		<polygon points="500,1100 800,800 850,850 900,800 900,900 900,800 950,850 1000,800 1300,1100" />
-		<polygon points="550,1150 850,850 900,900 950,850 1250,1150" />
-
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="1440" height="250" preserveAspectRatio="none" viewBox="0 0 1440 250">
+    <g mask="url(&quot;#SvgjsMask1000&quot;)" fill="none">
+        <rect width="1440" height="250" x="0" y="0" fill="#"></rect>
+        <path d="M16 250L266 0L594.5 0L344.5 250z" fill="url(#SvgjsLinearGradient1001)"></path>
+        <path d="M249.60000000000002 250L499.6 0L723.1 0L473.1 250z" fill="url(#SvgjsLinearGradient1001)"></path>
+        <path d="M476.20000000000005 250L726.2 0L805.7 0L555.7 250z" fill="url(#SvgjsLinearGradient1001)"></path>
+        <path d="M760.8000000000001 250L1010.8000000000001 0L1201.3000000000002 0L951.3000000000001 250z" fill="url(#SvgjsLinearGradient1001)"></path>
+        <path d="M1436 250L1186 0L841 0L1091 250z" fill="url(#SvgjsLinearGradient1002)"></path>
+        <path d="M1166.4 250L916.4000000000001 0L841.4000000000001 0L1091.4 250z" fill="url(#SvgjsLinearGradient1002)"></path>
+        <path d="M932.8 250L682.8 0L631.8 0L881.8 250z" fill="url(#SvgjsLinearGradient1002)"></path>
+        <path d="M687.1999999999999 250L437.19999999999993 0L339.69999999999993 0L589.6999999999999 250z" fill="url(#SvgjsLinearGradient1002)"></path>
+        <path d="M1210.822611586429 250L1440 20.822611586428962L1440 250z" fill="url(#SvgjsLinearGradient1001)"></path>
+        <path d="M0 250L229.17738841357104 250L 0 20.822611586428962z" fill="url(#SvgjsLinearGradient1002)"></path>
+    </g>
+    <defs>
+        <mask id="SvgjsMask1000">
+            <rect width="1440" height="250" fill="#ffffff"></rect>
+        </mask>
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="SvgjsLinearGradient1001">
+            <stop stop-color="rgba(255, 255, 255, 0.25)" offset="0"></stop>
+            <stop stop-opacity="0" stop-color="rgba(255, 255, 255, 0.25)" offset="0.66"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="SvgjsLinearGradient1002">
+            <stop stop-color="rgba(255, 255, 255, 0.25)" offset="0"></stop>
+            <stop stop-opacity="0" stop-color="rgba(255, 255, 255, 0.25)" offset="0.66"></stop>
+        </linearGradient>
+    </defs>
 </svg>
