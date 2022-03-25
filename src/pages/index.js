@@ -20,7 +20,7 @@ const IndexPage = () => (
         I'm a Third year Computer Science and Statistics student <br/>
         with a curious mind. There's always some kind of thought <br/>
         running through my mind as I think through how things work.<br/>
-        Feel free to tak all the time you would like on my website :)<br/>
+        Feel free to take all the time you would like on my website :)<br/>
       </p>
     </section>
     <Footer />
