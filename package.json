@@ -1,14 +1,13 @@
 {
-  "name": "gatsby-starter-overflow",
+  "name": "Danny-Starter",
   "version": "0.0.2",
-  "description": "Gatsby.js V4 starter template based on Overflow by HTML5 UP",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-overflow.git"
+    "url": "git+https://github.com/Dynnwa/Dannyw.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Danny Wei",
+    "email": "ddaniel.wei@gmail.com"
   },
   "dependencies": {
     "gatsby": "^4.2.0",
@@ -40,13 +39,11 @@
     "rimraf": "^3.0.2"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-overflow"
+    "gatsby"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-overflow/issues"
+    "url": "https://github.com/dynnwa"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-overflow#readme"
+  "homepage": "https://github.com/dynnwa"
 }
