@@ -24,13 +24,22 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>
-            Data Analytics CO-OP
+            Software Developer CO-OP
             <br/>
-            Jan 2022 - Present
+            Jan 2022 - Aug 2022
           </h2>
         </header>
         <p>
-          - Developed a set a Scenario Comparison dashboards to be productized to clients
+          - Improved Angular Frontend usablitlity by creating new widgets which users can
+            interact with for a better user experience
+          - Added configurable fields to Esri GIS feature by refactoring the code and updating
+            related unit tests to improve overall user experience for specific needs
+          - Implemented machine learning features into Copperleaf software by adding various 
+            classes to extract user data,  helping deliver software that is updated with machine
+            learning capabilities  to clients
+          - Created and productized a set of Power BI dashboards that use minimal import data 
+            from Oracle by designing their layouts to allow users to compare up to four 
+            investment scenarios together
         </p>
         <p>
           SKILLS <br/>
@@ -55,7 +64,7 @@ const IndexPage = () => (
           </h2>
         </header>
         <p> 
-          In grade 11 I was hesitant to take on a role with someone elses learing at stake
+          In grade 11 I was hesitant to take on a role with someone elses learning at stake
           but soon after taking on my first student I fell in love with tutoring. Knowing
           that I'm able to directly impact a students confidence in themselves to learn has been
           the most impactful thing with this job.
