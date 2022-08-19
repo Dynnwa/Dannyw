@@ -43,10 +43,9 @@ const IndexPage = () => (
         </p>
         <p>
           SKILLS <br/>
-          - Power BI <br/>
+          - Angular <br/>
           - C# <br/>
-          - Python (Scikit Learn, Numpy, Pandas) <br/>
-          - AWS
+          - Typescript
         </p>
       </div>
     </article>
