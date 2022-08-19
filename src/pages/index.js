@@ -17,9 +17,9 @@ const IndexPage = () => (
         <h2>Hello!</h2>
       </header>
       <p>
-        I'm a Third year Computer Science and Statistics student <br/>
-        with a curious mind. There's always some kind of thought <br/>
-        running through my mind as I think through how things work.<br/>
+        I'm a Computer Science and Statistics student with a curious<br/>
+        mind. There's always some kind of thought running through my head<br/>
+        as I think through how things work and solve problems.<br/>
         Feel free to take all the time you would like on my website :)<br/>
       </p>
     </section>
