@@ -36,7 +36,7 @@ const IndexPage = () => (
         </header>
         <p>
           I have a long history of working in mentorship related roles. All thruoughout highschool I was heavily involved in
-          cadets and tutoring. I thought it would only be natural for me to continue to the mentorship initiative.
+          cadets and tutoring. I thought it would only be natural for me to continue with a mentorship initiative.
           Being apart of the mentorship program has opened up many doors and allowed to me to meet some amazing people in the 
           process.
         </p>
@@ -94,9 +94,10 @@ const IndexPage = () => (
         </header>
         <p>
           Hard to really meet someone that genuinly enjoys math and the process
-          of not understanding the concepts. I've always been very mathematically
-          inclined, entering math competitions in highschool. After entering upper year
-          and taking more interesting classes, my passion has only grown larger
+          of not understanding the concepts but eventually figuring it out. I've 
+          always been very mathematically inclined, entering math competitions in 
+          highschool. After entering upper year and taking more interesting classes, 
+          my passion has only grown larger
         </p>
       </div>
     </article>
