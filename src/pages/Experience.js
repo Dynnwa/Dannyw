@@ -31,15 +31,15 @@ const IndexPage = () => (
         </header>
         <p>
           - Improved Angular Frontend usablitlity by creating new widgets which users can
-            interact with for a better user experience
+            interact with for a better user experience <br/>
           - Added configurable fields to Esri GIS feature by refactoring the code and updating
-            related unit tests to improve overall user experience for specific needs
+            related unit tests to improve overall user experience for specific needs <br/>
           - Implemented machine learning features into Copperleaf software by adding various 
             classes to extract user data,  helping deliver software that is updated with machine
-            learning capabilities  to clients
+            learning capabilities  to clients <br/>
           - Created and productized a set of Power BI dashboards that use minimal import data 
             from Oracle by designing their layouts to allow users to compare up to four 
-            investment scenarios together
+            investment scenarios together <br/>
         </p>
         <p>
           SKILLS <br/>
